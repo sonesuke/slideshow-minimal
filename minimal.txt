@@ -1,0 +1,22 @@
+#  S6 blank template package manifest
+
+__file__.html   slides.html.erb
+__file__.css    style.css.erb
+
+# styles
+
+minimal/projection.css
+minimal/screen.css
+minimal/print.css
+
+# javascript machinery
+
+minimal/jquery.js
+minimal/jquery.microsoft.js
+minimal/jquery.slideshow.js
+
+# template for pdf generation
+# -- use html-to-pdf tool (such as wkhtmltopdf, prince, etc) to generate pdf
+# -- from javascript free web page
+
+__file__.pdf.html  slides.pdf.html.erb
